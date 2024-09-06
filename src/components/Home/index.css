@@ -1,0 +1,30 @@
+.search-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 4px;
+  margin: 15px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  width: 40%;
+}
+.home-main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.video-list-container {
+  list-style-type: none;
+  width: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}

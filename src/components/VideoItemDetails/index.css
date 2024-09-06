@@ -1,0 +1,83 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0;
+}
+.failure-image {
+  width: 40%;
+}
+.main {
+  width: 80%;
+  height: 120vh;
+  padding: 2%;
+  /* background-color: #000000; */
+}
+.react-player-video {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .main {
+    width: 100%;
+    height: 100%;
+  }
+}
+.home-main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.trending-container1 {
+  width: 100%;
+  height: 500px;
+}
+.trending-heading {
+  font-family: 'Roboto';
+  color: #00306e;
+  font-size: 24px;
+  margin-left: 10px;
+}
+.heading-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2%;
+  background-color: #e2e8f0;
+}
+.video-view-title {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 18px;
+}
+.video-functions-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.like-text {
+  font-family: 'Roboto';
+  color: #313131;
+  font-size: 15px;
+  margin-left: 6px;
+}
+.like-button {
+  border-width: 0px;
+  background-color: transparent;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.profile-video-container {
+  display: flex;
+  align-items: flex-start;
+}
+.like-icon {
+  color: #64748b;
+}
+.like-active-icon {
+  color: #2563eb;
+  font-weight: bold;
+}

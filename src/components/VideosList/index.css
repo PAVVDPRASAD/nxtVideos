@@ -1,0 +1,28 @@
+.each-video-cont-home {
+  width: 30%;
+  margin: 15px;
+}
+
+@media (max-width: 767px) {
+  .each-video-cont-home {
+    width: 40%;
+    margin: 10px;
+  }
+}
+
+.thumbnail-image {
+  width: 100%;
+}
+.profile-logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  margin-right: 6px;
+}
+.video-details-cont {
+  display: flex;
+}
+.view-publish-cont {
+  display: flex;
+  align-items: center;
+}

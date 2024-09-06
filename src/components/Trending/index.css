@@ -1,0 +1,36 @@
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0;
+}
+.failure-image {
+  width: 40%;
+}
+.home-main-container-trending {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.video-list-container-trending {
+  list-style-type: none;
+  width: 90%;
+  padding: 2%;
+}
+.trending-container {
+  width: 100%;
+}
+.trending-heading {
+  font-family: 'Roboto';
+  color: #00306e;
+  font-size: 24px;
+  margin-left: 10px;
+}
+.heading-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2%;
+  background-color: #231f20;
+}
